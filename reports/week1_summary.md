@@ -26,3 +26,13 @@
 - Built a price-per-sqft heatmap (normalizes for house size): `maps/price_per_sqft_heatmap.html`
 - Mapped **21,613** properties across King County.
 - Next: visually inspect both maps for waterfront premiums, urban-core gradients, and zipcode-level clustering.
+
+## Day 5 - Week 1 Wrap-Up: Spatial Pricing Trends
+
+- Analyzed **70** distinct zipcodes across **21,613** properties.
+- Highest median price/sqft zipcode: **98039** ($560/sqft)
+- Lowest median price/sqft zipcode: **98023** ($145/sqft)
+- This zipcode-level gap is the first quantitative evidence of location-driven price variation that flat tabular features (sqft, bedrooms) don't explain on their own -- motivating the spatial graph/embedding work starting Week 3.
+
+### Week 1 Summary
+Week 1 delivered: a cleaned, outlier-normalized King County housing dataset, a GeoDataFrame with Haversine distance capability, and interactive heatmaps confirming meaningful spatial price variation. Ready to proceed to Week 2 (feature engineering + XGBoost baseline).
