@@ -19,3 +19,10 @@
 - Sample 5x5 Haversine distance matrix (km) computed to sanity-check distances.
 - Closest sample pair distance: **6.70 km**
 - Farthest sample pair distance: **28.21 km**
+
+## Day 4 - Interactive Spatial Heatmaps
+
+- Built a raw price heatmap: `maps/price_heatmap.html`
+- Built a price-per-sqft heatmap (normalizes for house size): `maps/price_per_sqft_heatmap.html`
+- Mapped **21,613** properties across King County.
+- Next: visually inspect both maps for waterfront premiums, urban-core gradients, and zipcode-level clustering.
